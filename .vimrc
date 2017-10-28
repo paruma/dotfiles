@@ -62,9 +62,23 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+" キーバインド
+noremap o i
+
+noremap j h
+noremap k gj
+noremap i gk
+noremap l l
+
+noremap <C-j> ^
+noremap <C-l> $
+noremap <C-i> <C-u>
+noremap <C-k> <C-d>
+
 " 見た目
 " カラースキーム
 colorscheme koehler
 " ダーク系のカラースキームを使う
 set background=dark
+
 
